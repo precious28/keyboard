@@ -37,48 +37,48 @@ const App = () => {
 					<button value='2' onClick={buttonHandler}>
 						2
 					</button>
-					<button>3</button>
-					<button>4</button>
-					<button>5</button>
-					<button>6</button>
-					<button>7</button>
-					<button>8</button>
-					<button>9</button>
-					<button>0</button>
+					<button value='3' onClick={buttonHandler}>3</button>
+					<button value='4' onClick={buttonHandler}>4</button>
+					<button value='5' onClick={buttonHandler}>5</button>
+					<button value='6' onClick={buttonHandler}>6</button>
+					<button value='7' onClick={buttonHandler}>7</button>
+					<button value='8' onClick={buttonHandler}>8</button>
+					<button value='9' onClick={buttonHandler}>9</button>
+					<button value='0' onClick={buttonHandler}>0</button>
 				</div>
 				<div className='key-row'>
-					<button>Q</button>
-					<button>W</button>
-					<button>E</button>
-					<button>R</button>
-					<button>T</button>
-					<button>Y</button>
-					<button>U</button>
-					<button>I</button>
-					<button>O</button>
-					<button>P</button>
+					<button value='Q' onClick={buttonHandler}>Q</button>
+					<button value='W' onClick={buttonHandler}>W</button>
+					<button value='E' onClick={buttonHandler}>E</button>
+					<button value='R' onClick={buttonHandler}>R</button>
+					<button value='T' onClick={buttonHandler}>T</button>
+					<button value='Y' onClick={buttonHandler}>Y</button>
+					<button value='U' onClick={buttonHandler}>U</button>
+					<button value='I' onClick={buttonHandler}>I</button>
+					<button value='O' onClick={buttonHandler}>O</button>
+					<button value='P' onClick={buttonHandler}>P</button>
 				</div>
 				<div className='key-row'>
-					<button>A</button>
-					<button>S</button>
-					<button>D</button>
-					<button>F</button>
-					<button>G</button>
-					<button>H</button>
-					<button>J</button>
-					<button>K</button>
-					<button>L</button>
+					<button value='A' onClick={buttonHandler}>A</button>
+					<button value='S' onClick={buttonHandler}>S</button>
+					<button value='D' onClick={buttonHandler}>D</button>
+					<button value='F' onClick={buttonHandler}>F</button>
+					<button value='G' onClick={buttonHandler}>G</button>
+					<button value='H' onClick={buttonHandler}>H</button>
+					<button value='J' onClick={buttonHandler}>J</button>
+					<button value='K' onClick={buttonHandler}>K</button>
+					<button value='L' onClick={buttonHandler}>L</button>
 				</div>
 				<div className='key-row'>
 					<button>Shift</button>
-					<button>Z</button>
-					<button>X</button>
-					<button>C</button>
-					<button>V</button>
-					<button>B</button>
-					<button>N</button>
-					<button>M</button>
-					<button className='btn-large'>Backspace</button>
+					<button value='Z' onClick={buttonHandler}>Z</button>
+					<button value='X' onClick={buttonHandler}>X</button>
+					<button value='C' onClick={buttonHandler}>C</button>
+					<button value='V' onClick={buttonHandler}>V</button>
+					<button value='B' onClick={buttonHandler}>B</button>
+					<button value='N' onClick={buttonHandler}>N</button>
+					<button value='M' onClick={buttonHandler}>M</button>
+					<button className='btn-large' onClick>Backspace</button>
 				</div>
 				<div className='key-row'>
 					<button className='btn-full'></button>
